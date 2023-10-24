@@ -1,0 +1,15 @@
+- pipeline.id: sophos_utm
+  path.config: "/usr/share/logstash/pipeline/sophos_utm.conf"
+  pipeline.workers: 3
+- pipeline.id: sophos_utm_httpproxy
+  path.config: "/usr/share/logstash/pipeline/sophos_utm_httpproxy.conf"
+  pipeline.workers: 3
+- pipeline.id: sophos_utm_httpd
+  path.config: "/usr/share/logstash/pipeline/sophos_utm_httpd.conf"
+  pipeline.workers: 3
+- pipeline.id: sophos_utm_ulogd
+  path.config: "/usr/share/logstash/pipeline/sophos_utm_ulogd.conf"
+  pipeline.workers: 3
+- pipeline.id: sophos_utm_fallback
+  path.config: "/usr/share/logstash/pipeline/sophos_utm_fallback.conf"
+  pipeline.workers: 3

@@ -1,0 +1,17 @@
+<30>2023:10:24-09:12:18 gateway httpproxy[30907]: id="0002" severity="info" sys="SecureWeb" sub="http" name="web request blocked" action="block" method="GET" srcip="192.168.2.123" dstip="34.104.35.123" user="" group="" ad_domain="" statuscode="416" cached="0" profile="REF_DefaultHTTPProfile (Default Web Filter Profile)" filteraction="REF_DefaultHTTPCFFAction (Default content filter action)" size="0" request="0x7fb713afcc00" url="http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/pjz2ikzfu2fy7k5pyymo7fkmka_3001/jflookgnkcckhobaglndicnbbgbonegd_3001_all_adphjk7p23ggs6k5v6flfprpqieq.crx3" referer="" error="" authtime="0" dnstime="246" aptptime="361" cattime="2393" avscantime="0" fullreqtime="50911" device="0" auth="0" ua="Microsoft BITS/7.8" exceptions="" category="178" reputation="neutral" categoryname="Internet Services" content-type="application/octet-stream" reason="range"
+<30>2023:10:24-09:12:19 gateway httpproxy[30907]: id="0001" severity="info" sys="SecureWeb" sub="http" name="http access" action="pass" method="HEAD" srcip="192.168.2.123" dstip="34.104.35.123" user="" group="" ad_domain="" statuscode="200" cached="0" profile="REF_DefaultHTTPProfile (Default Web Filter Profile)" filteraction="REF_DefaultHTTPCFFAction (Default content filter action)" size="0" request="0x7fb713afcc00" url="http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/pjz2ikzfu2fy7k5pyymo7fkmka_3001/jflookgnkcckhobaglndicnbbgbonegd_3001_all_adphjk7p23ggs6k5v6flfprpqieq.crx3" referer="" error="" authtime="0" dnstime="194" aptptime="301" cattime="270" avscantime="0" fullreqtime="58586" device="0" auth="0" ua="Microsoft BITS/7.8" exceptions="" category="178" reputation="neutral" categoryname="Internet Services" content-type="application/octet-stream"
+<30>2023:10:24-09:12:22 gateway httpproxy[30907]: id="0003" severity="info" sys="SecureWeb" sub="http" request="(nil)" function="confd_config_reload_func" file="confd-client.c" line="595" message="reloading config"
+
+<28>2023:10:24-09:12:18 gateway URID[30727]: T=30727 ------ 2   - Warning: EARLY TIMEOUT: dns context 9 has 5951 ms before it should time out
+
+<181>2023:10:24-09:16:29 gateway httpd: 192.168.2.123 - - [24/Oct/2023:09:16:29 -0500] "GET /blank.html?id=15&rnd=0.9765218022586546 HTTP/1.1" 200 -
+
+<30>2023:10:24-09:16:52 gateway dns-resolver[4723]: Updating REF_NetDnsResolver1a :: resolver1.ast.ctmail.com
+
+<78>2023:10:24-09:17:01 gateway /usr/sbin/cron[2238]: (root) CMD (  nice -n19 /usr/local/bin/gen_inline_reporting_data.plx)
+
+<30>2023:10:24-09:27:18 gateway dhcpd: Wrote 0 new dynamic host decls to leases file.
+
+<29>2023:10:24-09:23:03 gateway openvpn[5878]: MANAGEMENT: Client connected from /var/run/openvpn_mgmt
+
+<46>2023:10:24-09:31:53 gateway -- MARK --
